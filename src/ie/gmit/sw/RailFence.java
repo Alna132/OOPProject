@@ -1,5 +1,7 @@
 package ie.gmit.sw;
 
+import java.util.Scanner;
+
 /* Basic implementation of the Rail Fence Cypher using a 2D char array 
  * Note that there are more efficient ways to encrypt and decrypt, but the following implementation illustrates the steps
  * involved in each process and shows how the zig-zagging works. Feel free to change / adapt. 
@@ -127,9 +129,34 @@ public class RailFence {
 	}// End of printMatrix
 		
 	public static void main(String[] args) throws Exception{
+		Scanner console = new Scanner(System.in);
+		int choice;
 		
-		System.out.println("\nThe message to be decrypted: TTFOHATGRNREEANOETYRCIMHHAKT");
-		String secretMessage = new RailFence().decrypt("TTFOHATGRNREEANOETYRCIMHHAKT", 5);
-		System.out.println("\nThe decrypted message reads: " + secretMessage);
+		System.out.println("~~ MENU ~~");
+		System.out.println("1. Use preset message");
+		System.out.println("2. Enter your own message");
+		System.out.print("\nEnter Choice: ");
+		choice = console.nextInt();
+		
+		if(choice == 1)
+		{
+			System.out.println("\nThe message to be decrypted: TTFOHATGRNREEANOETYRCIMHHAKT");
+			String secretMessage = new RailFence().decrypt("TTFOHATGRNREEANOETYRCIMHHAKT", 5);
+			System.out.println("\nThe decrypted message reads: " + secretMessage);
+		}// End of if
+		else if(choice == 2)
+		{
+			String message = "";
+			System.out.println("\nEnter the message you wish to have decrypted. ");
+			message = console.next();
+			String secretMessage = new RailFence().decrypt(message, 5);
+			System.out.println("\nThe message to be decrypted: " + message);
+			System.out.println("\nThe decrypted message reads: " + secretMessage);
+		}
+		else
+		{
+			System.exit(1);
+		}
+	
 	}// End of main
 }// End of RailFence
