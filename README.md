@@ -32,12 +32,12 @@ The Result.java holds the getters, setters, variables and constructor for the re
 
 ### References:
 
-Code from lectures with John Healy.
+- Code from lectures with John Healy.
 
-Code from my Encryption Program from last year.
+- Code from my Encryption Program from last year.
 
-Code from my previous java programs.
+- Code from my previous java programs.
 
-Snippits of code from online [HashMap Vs. ConcurrentHashMap](http://javahungry.blogspot.com/2014/02/hashmap-vs-concurrenthashmap-java-collections-interview-question.html), [ConcurrentHashMap Oracle docs](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html), [Implement Rail fence cipher in Java ](http://gtucse.blogspot.ie/2014/01/implement-rail-fence-cipher-in-java.html), [java+encryption/decryption](http://www.dreamincode.net/forums/topic/38026-javaencryptiondecryptionrail-fence-ciphertransposition-ciphercolu/).
+- Snippits of code from online [HashMap Vs. ConcurrentHashMap](http://javahungry.blogspot.com/2014/02/hashmap-vs-concurrenthashmap-java-collections-interview-question.html), [ConcurrentHashMap Oracle docs](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html), [Implement Rail fence cipher in Java ](http://gtucse.blogspot.ie/2014/01/implement-rail-fence-cipher-in-java.html), [java+encryption/decryption](http://www.dreamincode.net/forums/topic/38026-javaencryptiondecryptionrail-fence-ciphertransposition-ciphercolu/).
 
-Research about Rail Cyphers online [Practical Cryptography](http://practicalcryptography.com/ciphers/rail-fence-cipher/), [Wikipedia](https://en.wikipedia.org/wiki/Rail_fence_cipher).
+- Research about Rail Cyphers online [Practical Cryptography](http://practicalcryptography.com/ciphers/rail-fence-cipher/), [Wikipedia](https://en.wikipedia.org/wiki/Rail_fence_cipher).
