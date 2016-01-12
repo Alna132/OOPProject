@@ -11,8 +11,9 @@ You are required to implement a cryptanalytic API for breaking a Rail Fence cyph
 When running this frogram from RailFence.java a menu will appear asking for user input.
 
 The user may either: 
-1. Decrypt the given message 
-or 
+
+1.  Decrypt the given message **OR**
+
 2. Provide their own for cypher breaking along with the number of rows in the cypher.
 
 ### Info on the program:
