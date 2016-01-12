@@ -146,10 +146,14 @@ public class RailFence {
 		}// End of if
 		else if(choice == 2)
 		{
+			int rows;
 			String message = "";
 			System.out.println("\nEnter the message you wish to have decrypted. ");
 			message = console.next();
-			String secretMessage = new RailFence().decrypt(message, 5);
+			System.out.println("\nEnter the number of rows in the cypher. ");
+			rows = console.nextInt();
+			
+			String secretMessage = new RailFence().decrypt(message, rows);
 			System.out.println("\nThe message to be decrypted: " + message);
 			System.out.println("\nThe decrypted message reads: " + secretMessage);
 		}
