@@ -12,13 +12,13 @@ When running this frogram from RailFence.java a menu will appear asking for user
 
 The user may either: 
 
-1.  Decrypt the given message **OR**
+1.  Decrypt the given cyphertext message **OR**
 
-2. Provide their own for cypher breaking along with the number of rows in the cypher.
+2. Provide their own cyphertext for cypher breaking along with the number of rows in the cypher
 
 ### Info on the program:
 
-The RailFence.java was provided and received a little editing.
+The RailFence.java was provided and received a little editing. The program is run from here.
 
 The TextScore.java was provided.
 
